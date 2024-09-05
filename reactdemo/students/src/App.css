@@ -1,0 +1,85 @@
+.student-details-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.add-button.active {
+  background-color: #218838;
+}
+
+.add-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.student-list {
+  margin-top: 20px;
+}
+
+.student-item {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.student-name {
+  font-weight: bold;
+  color: #007bff;
+  cursor: pointer;
+}
+
+.student-name:hover {
+  text-decoration: underline;
+}
+
+.student-details {
+  margin-top: 10px;
+}
+
+.delete-button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #dc3545;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}
+
+.delete-button:focus {
+  outline: none;
+}
